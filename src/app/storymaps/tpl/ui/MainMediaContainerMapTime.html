@@ -1,0 +1,34 @@
+<div class="mainMediaContainer">
+    <div class="customSlider" data-timemap="<%= timemap %>" data-webmapid="<%= webmapid %>">
+        <div class="player">
+            <img class="backward" src="resources/tpl/viewer/icons/player-backward.png" height="30" width="30" />
+            <img class="pause" src="resources/tpl/viewer/icons/player-pause.png" height="30" width="30" />
+            <img class="forward" src="resources/tpl/viewer/icons/player-forward.png" height="30" width="30" />
+        </div>
+        <hr class="timeSliderHorizontalLine" />
+        <div class="NoData timeDiv">
+            <div class="timepointtext">Early history 1963 - 1984</div>
+        </div>
+        <hr class="timeSliderHorizontalLine" />
+        <div class="DataOnly timeDiv">
+            <div class="timepointtext">Data Available 1985 - 2005</div>
+        </div>
+        <hr class="timeSliderHorizontalLine" />
+        <div class="DataReg timeDiv">
+            <div class="timepointtext">Regulations Begin 2005 - 2014</div>
+        </div>
+        <hr class="timeSliderHorizontalLine" />
+        <div class="DataForecast timeDiv margin-bottom-15">
+            <div class="timepointtext">Future Projections 2015 - 2019</div>
+        </div>
+        <hr class="timeSliderHorizontalLine" />
+        <vr></vr>
+    </div>
+    <div class="mapContainer timeMap" data-timemap="<%= timemap %>" data-webmapid="<%= webmapid %>" data-temporary="<%= isTemporary %>"></div>
+    <div class="overview"></div>
+    <div class="legend"></div>
+    <div class="geocoder"></div>
+    <div class="mainStageErrorContainer">
+        <div class="error"></div>
+    </div>
+</div>
