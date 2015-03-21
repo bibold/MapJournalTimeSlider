@@ -6,12 +6,12 @@ app.cfg = {
 	// Maximum number of sections
 	MAX_NB_SECTIONS: 101,
 	//CONFIGURABLE: ADD LIST OF WEBMAP IDS HERE THAT ARE TIME ENABLED
-	TIMESLIDERMAPS: [{ section: 0, webmapid: "dda7fd9d96154caf972e38b7638fb61e" }, { section: 7, webmapid: "2474ba0d446a478ca168002576355f53" }],
-	CSVFILES: [{ path: "app/ChesapeakeBayHistory.csv", startYear: 1963, section: 0, webmapid: "dda7fd9d96154caf972e38b7638fb61e" }, { path: "app/ChesapeakeBayHistory.csv", startYear: 1963, section: 7, webmapid: "2474ba0d446a478ca168002576355f53" }],
+	TIMESLIDERMAPS: [{ section: 0, webmapid: "webmapid1goeshere }, { section: 7, webmapid: "webmapid2goeshere" }],
+	CSVFILES: [{ path: "app/firstCsvFile.csv", startYear: 1900, section: 0, webmapid: "webmapid1goeshere" }, { path: "app/SecondCsvFile.csv", startYear: 2000, section: 7, webmapid: "webmapid2goeshere" }],
 	TIME_MARKER_INACTIVE: "resources/tpl/viewer/icons/Timeline_hollow.png",
 	TIME_MARKER_ACTIVE: "resources/tpl/viewer/icons/Timeline_yellow.png",
-	TIME_TOTAL_FIELD: "totNH3",
-	TIME_YEAR_FIELD: "year",
+	TIME_TOTAL_FIELD: "numericDataField",
+	TIME_YEAR_FIELD: "timeField",
 	TIME_PLAYER_MS:5000,
 	// Side and Floating panel dot navigation group size
 	DOTNAV_GROUPSIZE: 15,
